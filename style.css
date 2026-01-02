@@ -95,3 +95,13 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+.ig-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ig-icon {
+  font-size: 12px;
+  opacity: 0.6;
+}
