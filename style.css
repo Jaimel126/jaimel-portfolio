@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0b0b0b;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.tagline {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #ffffff;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 70px 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.ventures .card {
+  background: #141414;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-left: 3px solid white;
+}
+
+.ventures span {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.skills ul li {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.philosophy p {
+  font-style: italic;
+  color: #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #777;
+}
+/* ANIMATIONS */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
