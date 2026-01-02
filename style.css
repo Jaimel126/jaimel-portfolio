@@ -105,3 +105,15 @@ html {
   font-size: 12px;
   opacity: 0.6;
 }
+.contact-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.contact-buttons .btn {
+  padding: 12px 25px;
+  font-weight: bold;
+  text-align: center;
+}
