@@ -105,3 +105,34 @@ html {
   font-size: 12px;
   opacity: 0.6;
 }
+.timeline {
+  margin-top: 30px;
+  padding-left: 15px;
+  border-left: 2px solid #fff;
+}
+
+.timeline h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.timeline ul {
+  list-style: none;
+}
+
+.timeline ul li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.timeline ul li::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
